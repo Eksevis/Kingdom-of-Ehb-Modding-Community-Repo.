@@ -1,1 +1,1 @@
-The RAW / PSD files are not provided as they all use no custom textures.
+The RAW / PSD files are not provided as every model herein use no custom textures.
