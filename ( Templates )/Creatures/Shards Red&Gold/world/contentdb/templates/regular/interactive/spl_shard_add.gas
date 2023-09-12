@@ -1,0 +1,66 @@
+[t:template,n:spell_shard_zap_gold]
+{
+	category_name = "magic";
+	doc = "Shard zap gold";
+	specializes = base_spell_monster;
+	[attack]
+	{
+		 damage_min = 124;
+		 damage_max = 128;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("shard_zap_gold");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+	[magic]
+	{
+		cast_range = 12;
+		cast_reload_delay = 1.4;
+		mana_cost = 0;
+		requires_line_of_sight = true;
+		speed_bias = 1;
+		target_type_flags = tt_conscious_enemy;
+		usage_context_flags = uc_offensive;
+	}
+	[spell_default] {}
+}
+[t:template,n:spell_shard_zap_red]
+{
+	category_name = "magic";
+	doc = "Shard zap red";
+	specializes = base_spell_monster;
+	[attack]
+	{
+		 damage_min = 174;
+		 damage_max = 188;
+	}
+	[common]
+	{
+		[template_triggers]
+		{
+			[*]
+			{
+				action* = call_sfx_script("shard_zap_red");
+				condition* = receive_world_message("we_req_cast");
+			}
+		}
+	}
+	[magic]
+	{
+		cast_range = 12;
+		cast_reload_delay = 1.4;
+		mana_cost = 0;
+		requires_line_of_sight = true;
+		speed_bias = 1;
+		target_type_flags = tt_conscious_enemy;
+		usage_context_flags = uc_offensive;
+	}
+	[spell_default] {}
+}
