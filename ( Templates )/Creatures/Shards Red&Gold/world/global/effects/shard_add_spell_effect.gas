@@ -1,0 +1,18 @@
+[effect_script*]
+{
+	name	=shard_zap_gold;
+
+	script	=[[
+			call shard_zap_base s<color0(.6,.4,.1)> s<model(frag_glb_shard_gold_03)>;
+			worldmsg WE_SPELL_SYNC_END #INVALID_GOID #OWNER_GOID #TARGET_GOID;
+			]];
+}
+[effect_script*]
+{
+	name	=shard_zap_red;
+
+	script	=[[
+			call shard_zap_base s<color0(1,.2,.2)> s<model(frag_glb_shard_red_03)>;
+			worldmsg WE_SPELL_SYNC_END #INVALID_GOID #OWNER_GOID #TARGET_GOID;
+			]];
+}

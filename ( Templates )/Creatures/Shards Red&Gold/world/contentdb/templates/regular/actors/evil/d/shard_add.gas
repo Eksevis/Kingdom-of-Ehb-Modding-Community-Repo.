@@ -1,0 +1,133 @@
+[t:template,n:shard_gold]
+{
+	category_name = "1W_evil_d";
+	doc = "shard_gold";
+	specializes = base_shard;
+
+	[actor]
+	{
+		[skills]
+		{
+			strength =  20, 0;
+			intelligence =  7, 0;
+			dexterity =  9, 0;
+            combat_magic =  16,  0;
+		}
+	}
+	[aspect]
+	{
+		scale_base = 0.25;
+		[textures] { 0 = b_i_cav_gems-06-static; }
+		experience_value = 2050;
+		life = 534;
+        max_life = 534;
+        mana = 90;
+        max_mana = 90;
+        [voice]
+		{
+			[cast]			{ * = s_e_attack_shard; }
+			[die]			{ priority = high; * = s_e_die_shard_large; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_gargoyle; }
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 128;
+		damage_min = 124;
+	}
+	[defend] { defense=334; }
+
+
+  	[common] { screen_name = "Gold Shard"; }
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_shard_zap_gold; }
+	}
+	[mind]
+	{
+		on_enemy_entered_ocz_flee 	= true;
+		on_enemy_entered_ocz_attack = false;
+		on_enemy_entered_icz_flee 	= true;
+		on_enemy_entered_icz_attack = false;
+		flee_count 					= 1;
+	}
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_shard_gold_01 = 1;
+			frag_glb_shard_gold_02 = 1;
+			frag_glb_shard_gold_03 = 2;
+			frag_glb_shard_gold_04 = 3;
+			frag_glb_shard_gold_05 = 3;
+		}
+	}
+}
+[t:template,n:shard_red]
+{
+	category_name = "1W_evil_d";
+	doc = "shard_red";
+	specializes = base_shard;
+
+	[actor]
+	{
+		[skills]
+		{
+			strength =  24, 0;
+			intelligence =  9, 0;
+			dexterity =  12, 0;
+            combat_magic =  20,  0;
+		}
+	}
+	[aspect]
+	{
+		scale_base = 0.4;
+		[textures] { 0 = b_i_cav_gems-05-static; }
+		experience_value = 3000;
+		life = 734;
+        max_life = 734;
+        mana = 160;
+        max_mana = 160;
+        [voice]
+		{
+			[cast]			{ * = s_e_attack_shard; }
+			[die]			{ priority = high; * = s_e_die_shard_large; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_gargoyle; }
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 188;
+		damage_min = 174;
+	}
+	[defend] { defense=412; }
+
+
+  	[common] { screen_name = "Red Shard"; }
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_shard_zap_red; }
+	}
+	[mind]
+	{
+		on_enemy_entered_ocz_flee 	= true;
+		on_enemy_entered_ocz_attack = false;
+		on_enemy_entered_icz_flee 	= true;
+		on_enemy_entered_icz_attack = false;
+	}
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_shard_red_01 = 1;
+			frag_glb_shard_red_02 = 1;
+			frag_glb_shard_red_03 = 2;
+			frag_glb_shard_red_04 = 3;
+			frag_glb_shard_red_05 = 3;
+		}
+	}
+}

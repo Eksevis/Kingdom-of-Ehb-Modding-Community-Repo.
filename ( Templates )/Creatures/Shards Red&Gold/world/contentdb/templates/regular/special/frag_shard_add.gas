@@ -1,0 +1,118 @@
+[t:template,n:frag_glb_shard_gold_01]
+{
+	doc = "frag_glb_shard_01";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.25;
+		model = m_i_glb_frag-shard-01; 
+		[textures] { 0 = b_i_cav_gems-06-static; }
+	}
+}
+
+[t:template,n:frag_glb_shard_gold_02]
+{
+	doc = "frag_glb_shard_02";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.25;
+		model = m_i_glb_frag-shard-02; 
+		[textures] { 0 = b_i_cav_gems-06-static; }
+	}
+}
+
+[t:template,n:frag_glb_shard_gold_03]
+{
+	doc = "frag_glb_shard_03";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.25;
+		model = m_i_glb_frag-shard-03; 
+		[textures] { 0 = b_i_cav_gems-06-static; }
+	}
+}
+
+[t:template,n:frag_glb_shard_gold_04]
+{
+	doc = "frag_glb_shard_04";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.25;
+		model = m_i_glb_frag-shard-04; 
+		[textures] { 0 = b_i_cav_gems-06-static; }
+	}
+}
+
+[t:template,n:frag_glb_shard_gold_05]
+{
+	doc = "frag_glb_shard_05";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.25;
+		model = m_i_glb_frag-shard-05; 
+		[textures] { 0 = b_i_cav_gems-06-static; }
+	}
+}
+[t:template,n:frag_glb_shard_red_01]
+{
+	doc = "frag_glb_shard_01";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.5;
+		model = m_i_glb_frag-shard-01; 
+		[textures] { 0 = b_i_cav_gems-05-static; }
+	}
+}
+
+[t:template,n:frag_glb_shard_red_02]
+{
+	doc = "frag_glb_shard_02";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.5;
+		model = m_i_glb_frag-shard-02; 
+		[textures] { 0 = b_i_cav_gems-05-static; }
+	}
+}
+
+[t:template,n:frag_glb_shard_red_03]
+{
+	doc = "frag_glb_shard_03";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.5;
+		model = m_i_glb_frag-shard-03; 
+		[textures] { 0 = b_i_cav_gems-05-static; }
+	}
+}
+
+[t:template,n:frag_glb_shard_red_04]
+{
+	doc = "frag_glb_shard_04";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.5;
+		model = m_i_glb_frag-shard-04; 
+		[textures] { 0 = b_i_cav_gems-05-static; }
+	}
+}
+
+[t:template,n:frag_glb_shard_red_05]
+{
+	doc = "frag_glb_shard_05";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		scale_base = 0.5;
+		model = m_i_glb_frag-shard-05; 
+		[textures] { 0 = b_i_cav_gems-05-static; }
+	}
+}
