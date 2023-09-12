@@ -63,7 +63,7 @@
 	specializes = fragment;
 	[aspect] 
 	{ 
-		scale_base = 0.5;
+		scale_base = 0.4;
 		model = m_i_glb_frag-shard-01; 
 		[textures] { 0 = b_i_cav_gems-05-static; }
 	}
@@ -75,7 +75,7 @@
 	specializes = fragment;
 	[aspect] 
 	{ 
-		scale_base = 0.5;
+		scale_base = 0.4;
 		model = m_i_glb_frag-shard-02; 
 		[textures] { 0 = b_i_cav_gems-05-static; }
 	}
@@ -87,7 +87,7 @@
 	specializes = fragment;
 	[aspect] 
 	{ 
-		scale_base = 0.5;
+		scale_base = 0.4;
 		model = m_i_glb_frag-shard-03; 
 		[textures] { 0 = b_i_cav_gems-05-static; }
 	}
@@ -99,7 +99,7 @@
 	specializes = fragment;
 	[aspect] 
 	{ 
-		scale_base = 0.5;
+		scale_base = 0.4;
 		model = m_i_glb_frag-shard-04; 
 		[textures] { 0 = b_i_cav_gems-05-static; }
 	}
@@ -111,7 +111,7 @@
 	specializes = fragment;
 	[aspect] 
 	{ 
-		scale_base = 0.5;
+		scale_base = 0.4;
 		model = m_i_glb_frag-shard-05; 
 		[textures] { 0 = b_i_cav_gems-05-static; }
 	}
